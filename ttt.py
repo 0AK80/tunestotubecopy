@@ -64,14 +64,8 @@ def concatenate():
     label0=Label(root,text="Done",font=("Arial",18,"bold"),fg="green",bg="#141414")
     label0.pack()
     label0.place(x=365,y=250)
+      
     
-# Boton para cerrar la ventana
-
-  
-  
-
-
-        
 root = Tk()
 root.geometry('600x300')
 root.title('TTT Copy')
@@ -93,7 +87,7 @@ label4.place(x=10,y=40)
 
 
  
-b=Button(root,text="Merge",bg="#993d7a",fg="black",command=concatenate)
+b=Button(root,text="Concatenate",bg="#993d7a",fg="black",command=concatenate)
 b.place(x=330,y=150)
 b.config(font=("Arial 15 bold"))
 
